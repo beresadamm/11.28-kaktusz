@@ -1,0 +1,73 @@
+*{
+    font-family: Garamond;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+
+}
+#kozep{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border: 0px;
+    gap: 10px;
+}
+
+
+
+main>*, #kozep>*{
+    border:solid 2px rgb(0,136,255);
+    border-radius: 5px;
+}
+
+header{
+    background: rgb(0, 191, 200);
+    font-size: 150%;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+nav>a{
+    color: yellow;
+    padding: 30px;
+    font-size: 120%;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+nav{
+    background-color: rgb(0,200,255);
+    padding: 10px;
+}
+
+#jobb, #bal, footer{
+    background-color: rgb(0,191,255);
+}
+footer{
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+#bal>img{
+    width: 100%;
+    height: auto;
+}
+
+#bal {
+    display: grid;
+    justify-content: center;
+}
+
+nav>a:hover{
+    background-color: rgb(0,191,255);
+}
